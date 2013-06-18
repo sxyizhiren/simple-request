@@ -1,4 +1,7 @@
-var SimpleRequest=require('./lib/simple-request');
+install:
+npm install -d node-request
+
+var SimpleRequest=require('node-request');
 
 //get text
 var obj={};
